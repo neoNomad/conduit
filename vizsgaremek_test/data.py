@@ -12,7 +12,6 @@ regUserDict = {
         "email": "user25@",
         "password": "Userpass25"
     }
-
 }
 articleDict = {
     "title": "Teszt Title",
