@@ -180,7 +180,7 @@ class TestConduit(object):
             writer = csv.writer(file)
             for tag in tag_list:
                 writer.writerow([tag.text])
-        with open('listTag.csv', 'r') as file:
+        with open('vizsgaremek_test/listTag.csv', 'r') as file:
             first_row = file.readline().rstrip('\n')
             assert first_row == tag_list[0].text
 
