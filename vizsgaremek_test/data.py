@@ -1,5 +1,5 @@
-varj = 5
-varj2 = 20
+varj = 10
+varj2 = 25
 URL = "http://localhost:1667/"
 regUserDict = {
     "userRight": {
