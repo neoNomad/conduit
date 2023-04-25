@@ -5,7 +5,7 @@ regUserDict = {
     "userRight": {
         "name": "user28",
         "email": "user28@hotmail.com",
-        "password": "Userpass27"
+        "password": "Userpass28"
     },
     "userBad": {
         "name": "user25",
