@@ -57,7 +57,7 @@ class TestConduit(object):
         assert self.browser.find_element(By.XPATH, '//div[@class="swal-text"]').text == "Username field required."
 
     # ------------------------------------------------------------------------------------------------------------------
-    # ATC04 - Regisztráció helytelen email címmel
+    # ATC04 - Regisztráció rossz email címmel
     def test_regBadEmail(self):
         self.browser.find_element(By.LINK_TEXT, 'Sign up').click()
         self.browser.find_element(By.XPATH, '//input[@placeholder="Username"]').clear()
