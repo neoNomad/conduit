@@ -7,8 +7,8 @@ from data import *
 
 def login(browser):
     browser.find_element(By.XPATH, '//a[@href="#/login"]').click()
-    browser.find_element(By.XPATH, '//input[@placeholder="Email"]').send_keys("user32@hotmail.com")
-    browser.find_element(By.XPATH, '//input[@placeholder="Password"]').send_keys("Userpass1")
+    browser.find_element(By.XPATH, '//input[@placeholder="Email"]').send_keys("user28@hotmail.com")
+    browser.find_element(By.XPATH, '//input[@placeholder="Password"]').send_keys("Userpass28")
     WebDriverWait(browser, varj2).until(EC.presence_of_element_located((By.XPATH, '//button[@class="btn btn-lg btn-primary pull-xs-right"]'))).click()
     time.sleep(varj)
 
