@@ -123,6 +123,7 @@ class TestConduit(object):
     # ATC11 - Cikk létrehozása, ellenőrzése
     def test_articleCreate(self):
         login(self.browser)
+        time.sleep(varj)
         WebDriverWait(self.browser, varj).until(EC.presence_of_element_located((By.XPATH, '//a[@href="#/editor"]'))).click()
         WebDriverWait(self.browser, varj).until(EC.presence_of_element_located((By.XPATH, '//input[@placeholder="Article Title"]'))).send_keys(articleDict["title"])
         self.browser.find_element(By.XPATH, '//input[starts-with(@placeholder,"What")]').send_keys(articleDict["about"])
